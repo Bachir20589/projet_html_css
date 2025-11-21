@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    gap:15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image{
+    height: 350px;
+    background-image: url("image/logo6.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center;
+    background-size: 100%;
+   
+}
+
+.contener{
+    text-align: center;
+    padding-top: 80px;
+}
+.contener button{
+    display: flex;
+    justify-self: center;
+    border: 1px solid orange;
+    background-color: rgb(238, 165, 30);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight:500;
+    color: white;
+}
+
+.myclass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.myclass p{
+    margin-top: -5px;
+}
+.myclass .class1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myclass .class2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
