@@ -22,15 +22,13 @@ header{
     height: 350px;
     background-image: url("image/logo6.jpg");
     background-repeat: no-repeat;
-    background-attachment:scroll;
     background-position: center;
     background-size: 100%;
-   
 }
 
 .contener{
     text-align: center;
-    padding-top: 80px;
+    padding-top: 90px;
 }
 .contener button{
     display: flex;
@@ -65,4 +63,66 @@ header{
     text-align: center;
     align-items: center;
     flex-direction: column;
+}
+
+#myenter{
+    border-left:5px solid white;
+    border-top:5px solid white;
+    border-bottom:5px solid white;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    display: flex;
+    justify-self: left;
+    flex-direction: column;
+    /* padding-left: 1.5%;
+    padding-right: 50; */
+    width: 260px;
+    height: 280px;
+    background-color: white;
+}
+
+
+#myenter h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+#myenter p{
+    font-size: 15px;
+    text-align: center;
+}
+
+#myenter button{
+    font-size: 15px;
+    display: flex;
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    justify-self: center;
+    padding: 3%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+a{
+    text-decoration: none;
+ }
+
+#photo img{
+   width: 260px;
+   height: 290px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.enter{
+    display: flex;
+    flex-direction: row;
+}
+
+.bigenter{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: aqua;
 }
