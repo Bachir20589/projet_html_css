@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    padding-bottom: 5%;
 }
 
 
@@ -76,8 +77,8 @@ header{
     flex-direction: column;
     /* padding-left: 1.5%;
     padding-right: 50; */
-    width: 260px;
-    height: 280px;
+    width: 200px;
+    height: 250px;
     background-color: white;
 }
 
@@ -108,8 +109,8 @@ a{
  }
 
 #photo img{
-   width: 260px;
-   height: 290px;
+   width: 200px;
+   height: 260px;
     border-radius: 0px 15px 15px 0px;
 }
 
@@ -124,5 +125,40 @@ a{
     flex-direction: row;
     justify-content: space-around;
     padding: 50px;
-    background-color: aqua;
+    background-color:rgb(214, 212, 212);
+}
+
+.contact{
+    margin-top: 50px;
+    text-align: center;
+}
+.contact h3{
+    margin: auto;/* margin auto pour centrer */
+    width: 200px;
+    padding-bottom: 1%;
+    border-bottom: 1px solid rgb(5, 209, 245);
+}
+.formulaire {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.formulaire form input{
+    border: 1px solid rgb(211, 206, 206);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.formulaire form button {
+    color: white;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 5px;
+    background-color:rgb(5, 209, 245) ;
+}
+
+.formulaire form button:hover{
+    background-color: black;
 }
