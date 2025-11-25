@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
 }
 
 
@@ -161,4 +161,19 @@ a{
 
 .formulaire form button:hover{
     background-color: black;
+}
+
+.final1{
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(62, 61, 61);
+    padding: 20px;
+}
+
+.final1 h1{
+    color: white;
+}
+
+.final1 p{
+    color:grey
 }
